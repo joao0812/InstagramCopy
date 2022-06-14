@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+.container {
+    width: 1000px;
+    display: flex;
+    margin: 150px auto;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.celular {
+    display: flex;
+    justify-content: right;
+    
+}
+.celular img {
+    width: 353px;
+}
+
+.perfil {
+    width: 40%;
+    height: 590px;
+}
+.perfil .account {
+    border: 1px solid lightgray;
+    margin-bottom: 15px;
+    height: 58%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    font-family: 'Lobster', cursive;
+    
+}
+.perfil .account img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+}
+.perfil .account .continue {
+    font-size: 14px;
+    font-weight: 900;
+    color: white;
+    padding: 5px 10px;
+    font-family: 'Poppins', sans-serif;
+    border-radius: 5px;
+    border: none;
+    background-color: #2E8EF9;
+}
+.perfil .account .continue:hover {
+    background-color: #1b6afd;
+}
+.remove {
+    width: 210px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #2E8EF9;
+    padding: 5px;
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    border: none;
+}
+.switchAccounts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    height: 15%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #949494;
+    font-weight: 900;
+    border: 1px solid lightgray;
+}
+
+.app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 18%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+}
+.app img {
+    width: 150px;
+}
+
+a {
+    text-decoration: none;
+    color: #2E8EF9;
+}
